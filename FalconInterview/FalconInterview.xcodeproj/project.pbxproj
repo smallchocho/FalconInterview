@@ -17,6 +17,7 @@
 		BCAC70B4286D4404005FD169 /* RESTfulService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAC70B3286D4404005FD169 /* RESTfulService.swift */; };
 		BCAC70B6286D4484005FD169 /* NewsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAC70B5286D4484005FD169 /* NewsService.swift */; };
 		BCAC70B8286D4542005FD169 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAC70B7286D4542005FD169 /* Constants.swift */; };
+		BCAC70BB286D5125005FD169 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAC70BA286D5125005FD169 /* NewsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		BCAC70B3286D4404005FD169 /* RESTfulService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESTfulService.swift; sourceTree = "<group>"; };
 		BCAC70B5286D4484005FD169 /* NewsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsService.swift; sourceTree = "<group>"; };
 		BCAC70B7286D4542005FD169 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BCAC70BA286D5125005FD169 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				BCAC70B7286D4542005FD169 /* Constants.swift */,
 				BCAC709F286D4163005FD169 /* SceneDelegate.swift */,
 				BCAC70A1286D4163005FD169 /* NewsViewController.swift */,
+				BCAC70BA286D5125005FD169 /* NewsViewModel.swift */,
 				BCAC70A3286D4163005FD169 /* Main.storyboard */,
 				BCAC70A6286D4168005FD169 /* Assets.xcassets */,
 				BCAC70A8286D4168005FD169 /* LaunchScreen.storyboard */,
@@ -165,6 +168,7 @@
 				BCAC70B8286D4542005FD169 /* Constants.swift in Sources */,
 				BCAC709E286D4163005FD169 /* AppDelegate.swift in Sources */,
 				BCAC70A0286D4163005FD169 /* SceneDelegate.swift in Sources */,
+				BCAC70BB286D5125005FD169 /* NewsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
