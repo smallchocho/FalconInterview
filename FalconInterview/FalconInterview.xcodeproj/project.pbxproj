@@ -14,6 +14,9 @@
 		BCAC70A7286D4168005FD169 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCAC70A6286D4168005FD169 /* Assets.xcassets */; };
 		BCAC70AA286D4168005FD169 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCAC70A8286D4168005FD169 /* LaunchScreen.storyboard */; };
 		BCAC70B2286D41A7005FD169 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAC70B1286D41A7005FD169 /* AppCoordinator.swift */; };
+		BCAC70B4286D4404005FD169 /* RESTfulService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAC70B3286D4404005FD169 /* RESTfulService.swift */; };
+		BCAC70B6286D4484005FD169 /* NewsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAC70B5286D4484005FD169 /* NewsService.swift */; };
+		BCAC70B8286D4542005FD169 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAC70B7286D4542005FD169 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		BCAC70A9286D4168005FD169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCAC70AB286D4168005FD169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCAC70B1286D41A7005FD169 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		BCAC70B3286D4404005FD169 /* RESTfulService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESTfulService.swift; sourceTree = "<group>"; };
+		BCAC70B5286D4484005FD169 /* NewsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsService.swift; sourceTree = "<group>"; };
+		BCAC70B7286D4542005FD169 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +64,9 @@
 		BCAC709C286D4163005FD169 /* FalconInterview */ = {
 			isa = PBXGroup;
 			children = (
+				BCAC70B9286D4A0F005FD169 /* Service */,
 				BCAC709D286D4163005FD169 /* AppDelegate.swift */,
+				BCAC70B7286D4542005FD169 /* Constants.swift */,
 				BCAC709F286D4163005FD169 /* SceneDelegate.swift */,
 				BCAC70A1286D4163005FD169 /* NewsViewController.swift */,
 				BCAC70A3286D4163005FD169 /* Main.storyboard */,
@@ -68,6 +76,15 @@
 				BCAC70B1286D41A7005FD169 /* AppCoordinator.swift */,
 			);
 			path = FalconInterview;
+			sourceTree = "<group>";
+		};
+		BCAC70B9286D4A0F005FD169 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				BCAC70B3286D4404005FD169 /* RESTfulService.swift */,
+				BCAC70B5286D4484005FD169 /* NewsService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +158,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCAC70B6286D4484005FD169 /* NewsService.swift in Sources */,
+				BCAC70B4286D4404005FD169 /* RESTfulService.swift in Sources */,
 				BCAC70B2286D41A7005FD169 /* AppCoordinator.swift in Sources */,
 				BCAC70A2286D4163005FD169 /* NewsViewController.swift in Sources */,
+				BCAC70B8286D4542005FD169 /* Constants.swift in Sources */,
 				BCAC709E286D4163005FD169 /* AppDelegate.swift in Sources */,
 				BCAC70A0286D4163005FD169 /* SceneDelegate.swift in Sources */,
 			);
