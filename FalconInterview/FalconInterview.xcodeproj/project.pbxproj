@@ -72,15 +72,12 @@
 		BCAC709C286D4163005FD169 /* FalconInterview */ = {
 			isa = PBXGroup;
 			children = (
-				BCAC70B9286D4A0F005FD169 /* Service */,
 				BCAC709D286D4163005FD169 /* AppDelegate.swift */,
 				BCAC70B7286D4542005FD169 /* Constants.swift */,
 				BCAC709F286D4163005FD169 /* SceneDelegate.swift */,
-				BCAC70A1286D4163005FD169 /* NewsViewController.swift */,
-				BCAC70BA286D5125005FD169 /* NewsViewModel.swift */,
-				BCAC70BC286D6530005FD169 /* NewsTableViewCell.swift */,
-				BCAC70C0286D6C27005FD169 /* ExtsDate.swift */,
-				BCAC70C4286D6F43005FD169 /* ExtsUIImageView.swift */,
+				BCAC70C7286D7401005FD169 /* ViewController */,
+				BCAC70B9286D4A0F005FD169 /* Service */,
+				BCAC70C6286D73DD005FD169 /* Extension */,
 				BCAC70A3286D4163005FD169 /* Main.storyboard */,
 				BCAC70A6286D4168005FD169 /* Assets.xcassets */,
 				BCAC70A8286D4168005FD169 /* LaunchScreen.storyboard */,
@@ -97,6 +94,33 @@
 				BCAC70B5286D4484005FD169 /* NewsService.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		BCAC70C6286D73DD005FD169 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BCAC70C4286D6F43005FD169 /* ExtsUIImageView.swift */,
+				BCAC70C0286D6C27005FD169 /* ExtsDate.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		BCAC70C7286D7401005FD169 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BCAC70C8286D740D005FD169 /* ViewModel */,
+				BCAC70A1286D4163005FD169 /* NewsViewController.swift */,
+				BCAC70BC286D6530005FD169 /* NewsTableViewCell.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BCAC70C8286D740D005FD169 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BCAC70BA286D5125005FD169 /* NewsViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

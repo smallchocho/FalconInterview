@@ -38,7 +38,7 @@ class NewsViewController: UIViewController {
                 switch result {
                 case.success:
                     self.newsTableView.reloadData()
-                case .failure(let error):
+                case .failure:
                     break
                 }
             }
